@@ -1,0 +1,60 @@
+h1
+{
+     font-family: 'Pacifico', cursive;
+     font-size: 50px;
+
+     Font-weight: 500;
+     
+     Line-height: 60px;
+}
+h2
+{
+    font-family: 'Righteous', sans-serif;
+    Font-size: 25px;
+
+    Font-weight: 500;
+
+    Line-height: 30px;
+    color: #d4c7b5;
+}
+
+label
+{
+    font-family: sans-serif;
+    Font-size: 16px;
+
+    Font-weight: 600;
+    
+    Line-height: 24px;
+}
+.x
+{
+    background-color: #d4c7b5;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.a
+{
+    background-color: red;
+   color: white;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+}
+.z
+{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}

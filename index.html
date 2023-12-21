@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inter&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital@1&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Righteous&family=Roboto&display=swap" rel="stylesheet">
+    <title>bookmark</title>
+</head>
+<body class="bg-primary-subtle">
+    <div class="w-75   m-auto mt-5">
+        <h1 class="pb-5 text-center">Bookmarker</h1>
+        <hr>
+        <h2 class="text-center"><i class="fa-solid fa-bookmark fa-sm" style="color: #d4c7b5;"></i> Bookmark your favorite sites <i class="fa-solid fa-bookmark fa-sm" style="color: #d4c7b5;"></i></h2>
+        <label  class="p-3"><i class="fa-solid fa-book-bookmark" style="color: #000000;"></i> Site Name</label>
+    
+        <input id="NameId" type="text" class="form-control" placeholder="Bookmark Name">
+
+        <label class="p-3"><i class="fa-solid fa-link" style="color: #000000;"></i> Site URL</label>
+        <input id="WebsiteId" type="text" class="form-control" placeholder="Website URL">
+        <button class="x" onclick="addWebsite()" > Submit</button>
+        <hr>
+        <table class="table">
+            <thead>
+                <th>Index</th>
+                <th>Website Name</th>
+                <th>Visit</th>
+                <th>Delete</th>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    
+    
+    </div>
+
+
+
+
+
+
+
+
+<script src="js/mine.js" ></script>
+</body>
+</html>
